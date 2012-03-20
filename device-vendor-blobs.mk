@@ -49,8 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.ancora.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/hw/sensors.SGH-T679.so:system/lib/hw/sensors.ancora.so
+    vendor/samsung/ancora_tmo/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.ancora_tmo.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/hw/sensors.SGH-T679.so:system/lib/hw/sensors.ancora_tmo.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
