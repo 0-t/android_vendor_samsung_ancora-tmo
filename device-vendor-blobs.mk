@@ -64,6 +64,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
+    vendor/samsung/ancora_tmo/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw
+    vendor/samsung/ancora_tmo/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw
+    vendor/samsung/ancora_tmo/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw
+    vendor/samsung/ancora_tmo/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw
+    vendor/samsung/ancora_tmo/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw
+    vendor/samsung/ancora_tmo/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw
+    vendor/samsung/ancora_tmo/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
 
 # RIL
 PRODUCT_COPY_FILES += \
