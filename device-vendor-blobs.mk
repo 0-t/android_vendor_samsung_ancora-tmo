@@ -51,11 +51,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/hw/sensors.SGH-T679.so:system/lib/hw/sensors.ancora_tmo.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/samsung/ancora/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
