@@ -1,3 +1,4 @@
+
 # Copyright (C) 2011 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -47,6 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/samsung/ancora_tmo/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.ancora_tmo.so \
     vendor/samsung/ancora_tmo/proprietary/lib/hw/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so \
     vendor/samsung/ancora_tmo/proprietary/lib/hw/sensors.SGH-T679.so:system/lib/hw/sensors.ancora_tmo.so
@@ -78,3 +81,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libganril.so:system/lib/libganril.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libkineto.so::system/lib/libkineto.so \
     vendor/samsung/ancora_tmo/proprietary/lib/librilswitch.so:system/lib/librilswitch.so
+
