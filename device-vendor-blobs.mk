@@ -19,7 +19,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-    vendor/samsung/ancora/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # Binaries
@@ -33,47 +33,47 @@ PRODUCT_COPY_FILES += \
 
 # Adreno libs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/samsung/ancora/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/samsung/ancora/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/samsung/ancora/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/samsung/ancora/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+    vendor/samsung/ancora_tmo/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
 
 # HW libs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/lib/libakm.so:system/lib/libakm.so \
-    vendor/samsung/ancora/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/samsung/ancora/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.ancora_tmo.so \
-    vendor/samsung/ancora/proprietary/lib/hw/sensors.SGH-T679.so:system/lib/hw/sensors.ancora_tmo.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libakm.so:system/lib/libakm.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.ancora_tmo.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/hw/sensors.SGH-T679.so:system/lib/hw/sensors.ancora_tmo.so
 
 # Camera libs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
-    vendor/samsung/ancora/proprietary/lib/libPanoraMax3.so:system/lib/libPanoraMax3.so \
-    vendor/samsung/ancora/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
-    vendor/samsung/ancora/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/samsung/ancora/proprietary/lib/libcaps.so:system/lib/libcaps.so \
-    vendor/samsung/ancora/proprietary/lib/libexifa.so:system/lib/libexifa.so \
-    vendor/samsung/ancora/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/samsung/ancora/proprietary/lib/libjpega.so:system/lib/libjpega.so \
-    vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/samsung/ancora/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/samsung/ancora/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
-    vendor/samsung/ancora/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
-    vendor/samsung/ancora/proprietary/lib/libsecjpegarcsoft.so:system/lib/libsecjpegarcsoft.so \
-    vendor/samsung/ancora/proprietary/lib/libsecjpegboard.so:system/lib/libsecjpegboard.so \
-    vendor/samsung/ancora/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libPanoraMax3.so:system/lib/libPanoraMax3.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libcaps.so:system/lib/libcaps.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libexifa.so:system/lib/libexifa.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libjpega.so:system/lib/libjpega.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libsecjpegarcsoft.so:system/lib/libsecjpegarcsoft.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libsecjpegboard.so:system/lib/libsecjpegboard.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so
 
 # Media libs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/samsung/ancora/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
