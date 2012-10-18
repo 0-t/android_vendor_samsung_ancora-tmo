@@ -68,6 +68,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecjpegboard.so:system/lib/libsecjpegboard.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so
 
+#vendor/samsung/ancora_tmo/proprietary/lib/hw/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so
+
 # Media libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

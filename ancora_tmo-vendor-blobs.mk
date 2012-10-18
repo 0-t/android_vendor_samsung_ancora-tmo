@@ -37,8 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary//lib/egl/libGLESv1_CM_adreno200.so:system//lib/egl/libGLESv1_CM_adreno200.so \
     vendor/samsung/ancora_tmo/proprietary//lib/egl/libGLESv2_adreno200.so:system//lib/egl/libGLESv2_adreno200.so \
     vendor/samsung/ancora_tmo/proprietary//lib/egl/libq3dtools_adreno200.so:system//lib/egl/libq3dtools_adreno200.so \
-    vendor/samsung/ancora_tmo/proprietary//lib/hw/lights.msm7k.so:system//lib/hw/lights.msm7k.so \
-    vendor/samsung/ancora_tmo/proprietary//lib/hw/sensors.SGH-T679.so:system//lib/hw/sensors.SGH-T679.so \
+    vendor/samsung/ancora_tmo/proprietary//lib/hw/lights.ancora_tmo.so:system//lib/hw/lights.ancora_tmo.so \
+    vendor/samsung/ancora_tmo/proprietary//lib/hw/sensors.ancora_tmo.so:system//lib/hw/sensors.ancora_tmo.so \
     vendor/samsung/ancora_tmo/proprietary//lib/libActionShot.so:system//lib/libActionShot.so \
     vendor/samsung/ancora_tmo/proprietary//lib/libakm.so:system//lib/libakm.so \
     vendor/samsung/ancora_tmo/proprietary//lib/libarccamera.so:system//lib/libarccamera.so \
