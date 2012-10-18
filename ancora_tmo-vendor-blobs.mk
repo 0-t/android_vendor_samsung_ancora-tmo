@@ -64,3 +64,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary//lib/libsecjpeginterface.so:system//lib/libsecjpeginterface.so \
     vendor/samsung/ancora_tmo/proprietary//lib/libsecril-client.so:system//lib/libsecril-client.so \
     vendor/samsung/ancora_tmo/proprietary//lib/libsec-ril.so:system//lib/libsec-ril.so
+
+#vendor/samsung/ancora_tmo/proprietary//lib/hw/camera.msm7x30.so:system//lib/hw/camera.msm7x30.so
