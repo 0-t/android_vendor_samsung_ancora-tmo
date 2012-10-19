@@ -66,8 +66,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecjpegarcsoft.so:system/lib/libsecjpegarcsoft.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecjpegboard.so:system/lib/libsecjpegboard.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/hw/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so
+
+#    vendor/samsung/ancora_tmo/proprietary/lib/hw/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so
 
 # Media libs
 PRODUCT_COPY_FILES += \
