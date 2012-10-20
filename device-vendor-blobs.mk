@@ -69,6 +69,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so
 
 #    vendor/samsung/ancora_tmo/proprietary/lib/hw/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so
+#    vendor/samsung/ancora_tmo/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
+#    vendor/samsung/ancora_tmo/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
 
 # Media libs
 PRODUCT_COPY_FILES += \
@@ -89,6 +91,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
+
+# Camera firmware
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F00.bin:system/firmware/CE147F00.bin \
+#    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F01.bin:system/firmware/CE147F01.bin \
+#    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F02.bin:system/firmware/CE147F02.bin \
+#    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F03.bin:system/firmware/CE147F03.bin
 
 # RIL
 PRODUCT_COPY_FILES += \
