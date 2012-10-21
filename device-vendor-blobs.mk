@@ -93,11 +93,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
 # Camera firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F00.bin:system/firmware/CE147F00.bin \
-    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F01.bin:system/firmware/CE147F01.bin \
-    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F02.bin:system/firmware/CE147F02.bin \
-    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F03.bin:system/firmware/CE147F03.bin
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F00.bin:system/firmware/CE147F00.bin \
+#    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F01.bin:system/firmware/CE147F01.bin \
+#    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F02.bin:system/firmware/CE147F02.bin \
+#    vendor/samsung/ancora_tmo/proprietary/firmware/CE147F03.bin:system/firmware/CE147F03.bin
 
 # RIL
 PRODUCT_COPY_FILES += \
