@@ -79,7 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+    vendor/samsung/ancora/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
