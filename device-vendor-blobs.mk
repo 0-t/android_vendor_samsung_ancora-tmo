@@ -18,7 +18,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
@@ -69,10 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecjpegarcsoft.so:system/lib/libsecjpegarcsoft.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecjpegboard.so:system/lib/libsecjpegboard.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so
-
-#    vendor/samsung/ancora_tmo/proprietary/lib/hw/camera.msm7x30.so:system/lib/hw/camera.msm7x30.so
-#    vendor/samsung/ancora_tmo/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
-#    vendor/samsung/ancora_tmo/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
 
 # Media libs
 PRODUCT_COPY_FILES += \
