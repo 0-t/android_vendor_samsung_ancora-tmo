@@ -18,6 +18,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
@@ -25,7 +26,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/bin/rmt_storage:system/bin/rmt_storage
 
-# Cameradata
+# Camera data
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/cameradata/datapattern_420sp_T679.yuv:system/cameradata/datapattern_420sp_T679.yuv \
     vendor/samsung/ancora_tmo/proprietary/cameradata/datapattern_front_420sp_T679.yuv:system/cameradata/datapattern_front_420sp_T679.yuv
@@ -97,6 +98,8 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ancora_tmo/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/ancora_tmo/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libganril.so:system/lib/libganril.so \
