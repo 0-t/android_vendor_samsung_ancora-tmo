@@ -20,8 +20,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
+
+#    vendor/samsung/ancora_tmo/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 # Binaries
 PRODUCT_COPY_FILES += \
@@ -47,8 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
 
 # QCOM optimized libv8
-PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora_tmo/proprietary/lib/libv8.so:system/lib/libv8.so
+# PRODUCT_COPY_FILES += \
+#    vendor/samsung/ancora_tmo/proprietary/lib/libv8.so:system/lib/libv8.so
 
 # HW libs
 PRODUCT_COPY_FILES += \
