@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/samsung/ancora_tmo/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/ancora_tmo/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/samsung/ancora_tmo/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+    vendor/samsung/ancora_tmo/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so
 
 # HW libs
 PRODUCT_COPY_FILES += \
