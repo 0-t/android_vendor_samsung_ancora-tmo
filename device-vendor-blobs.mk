@@ -26,11 +26,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/bin/rmt_storage:system/bin/rmt_storage
 
-# Camera data
-PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora_tmo/proprietary/cameradata/datapattern_420sp_T679.yuv:system/cameradata/datapattern_420sp_T679.yuv \
-    vendor/samsung/ancora_tmo/proprietary/cameradata/datapattern_front_420sp_T679.yuv:system/cameradata/datapattern_front_420sp_T679.yuv
-
 # Adreno libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/app/ProfilerPlaybackTools.apk:system/app/ProfilerPlaybackTools.apk \
